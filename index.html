@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Pedro Vitor Gurgel</title>
+</head>
+<body class="bg-black">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+
+            <!-- Menu Items -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#skills" class="text-white text-xl hover:text-gray-400">Skills</a>
+                <a href="#projects" class="text-white text-xl hover:text-gray-400">Projects</a>
+                <a href="#contact" class="text-white text-xl hover:text-gray-400">Contact me</a>
+            </div>
+
+            <!-- Button -->
+            <a href="#" download="" class="hidden p-3 px-6 pt-2 text-black text-lg bg-red-700 rounded-full baseline hover:bg-red-500 transition-colors md:block">Download CV</a>
+
+            <!-- Hamburger Menu -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col hidden items-center self-end py-8 mt-10 space-y-6 font-bold bg-black sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#skills" class="text-white text-xl hover:text-gray-400">Skills</a>
+                <a href="#projects" class="text-white text-xl hover:text-gray-400">Projects</a>
+                <a href="#contact" class="text-white text-xl hover:text-gray-400">Contact me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="h-screen items-center justify-center">
+        
+        <!-- Flex Container -->
+        <div class="container flex flex-col md:flex-row items-center justify-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            
+            <!-- Introduction -->
+            <div class="flex flex-col mt-40 space-y-2 md:w-1/2">
+                <h3 class="max-w-md text-white text-3xl md:text-4xl ">
+                    Hi, my name is
+                </h3>
+                <h1 class="max-w-md text-white text-5xl font-bold md:text-6xl ">
+                    Pedro Vitor
+                </h1>
+                <p class="max-w-md text-gray-500 text-lg ">Oi, sou Pedro Vitor, estudante de Engenharia de Software. Conheça meu portfólio e veja como aplico Python, Java e Segurança da Informação em meus projetos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me Section -->
+    <section id="aboutme">
+        
+        <!-- Flex Container -->
+        <div class="container flex flex-col items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+
+            <!-- Left Item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h1 class="text-white font-bold max-w-md text-4xl text-center md:text-5xl md:text-left">About me</h1>
+                <p class="max-w-sm text-center text-gray-500 md:text-left text-2xl">Meu nome é Pedro Vitor, estudante de Engenharia de Software. Durante minha jornada acadêmica, mergulhei fundo no mundo da programação , dominando linguagens como Python e Java, enquanto também explorei as complexidades da Segurança da Informação. Além do código, valorizo a colaboração e o trabalho em equipe, acreditando que a sinergia é fundamental para o sucesso em projetos desafiadores.
+
+                    Minha paixão pela aprendizagem contínua me motiva a buscar constantemente novos horizontes na área da Engenharia de Software. Estou animado para enfrentar os próximos desafios, contribuir para soluções inovadoras e evoluir no dinâmico cenário tecnológico.</p>
+            </div>
+
+            <!-- Image -->
+            <div class="max-w-sm rounded-5xl border-b-4 border-l-2 border-red-600">
+                <img src="./images/ft.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        
+        <!-- Flex Container -->
+        <div class="container flex flex-col px-6 mx-auto mt-10 space-y-12 md:space-y-0 py-12">
+            <h1 class="text-white font-bold max-w-md md:mb-20 text-4xl text-center md:text-5xl md:text-left">Skills</h1>
+
+            <!-- Items Skills -->
+            <div class="flex flex-col space-y-2  md:flex-row md:w-1/2 gap-3">
+                <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-red-500 transition-all md:w-1/2 transform hover:-translate-y-3">
+                  <i class="fab fa-html5 text-6xl text-white max-w-sm "></i>
+                  <p class="text-center text-2xl font-bold text-white">HTML</p>
+                </div>
+              
+                <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-blue-500 transition-all transform hover:-translate-y-3">
+                    <i class="fab fa-css3-alt text-6xl text-white"></i>
+                    <p class="text-center text-2xl font-bold text-white">CSS</p>
+                  </div>
+                
+                  <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-yellow-500 transition-all transform hover:-translate-y-3">
+                    <i class="fab fa-js text-6xl text-white"></i>
+                    <p class="text-center text-2xl font-bold text-white">JavaScript</p>
+                  </div>
+
+                  <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-teal-500 transition-all transform hover:-translate-y-3">
+                    <i class="fas fa-wind text-6xl text-white"></i>
+                    <p class="text-center text-2xl font-bold text-white">Tailwind</p>
+                  </div>
+
+                  <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-red-800 transition-all transform hover:-translate-y-3">
+                    <i class="fab fa-java text-6xl text-white"></i>
+                    <p class="text-center text-2xl font-bold text-white">Java</p>
+                  </div>
+
+                  <div class="bg-stone-900 shadow-md p-12 px-20 pt-6 flex flex-col items-center justify-center hover:bg-lime-600 transition-all transform hover:-translate-y-3">
+                    <i class="fas fa-leaf text-6xl text-white"></i>
+                    <p class="text-center text-2xl font-bold text-white">Spring</p>
+                  </div>
+              </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <!-- Flex Container -->
+        <div class="container flex flex-col px-6 mx-auto mt-10 space-y-12 md:space-y-0">
+            <h1 class="text-white font-bold max-w-md md:mb-20 text-4xl text-center md:text-5xl md:text-left">Projects</h1>
+
+            <!-- Projects -->
+            <div class="flex flex-wrap gap-5 justify-center">
+                <div class="w-64 rounded-lg transition-all transform hover:scale-110">
+                    <div class="max-w-fit text-red-500 bg-red-700 p-5 text-5xl rounded-t overflow-hidden">
+                        <i class="fab fa-python"></i>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="p-6 bg-neutral-950">
+                        <h3 class="text-white font-bold text-2xl pb-1">Cryptography Script on Python</h3>
+
+                        <p class="text-gray-400 text-lg mb-5">Desenvolvi um script em Python para criptografar e descriptografar dados sensíveis, garantindo a segurança durante a transmissão e armazenamento.</p>
+
+                        <a href="https://github.com/pedruuv/CriptPy" target="_blank" class="py-3 px-5 bg-red-700 text-white rounded-md hover:bg-red-500 transition-all">Ver no GitHub</a>
+                    </div>
+                    </div>
+
+                    <div class="w-64 rounded-lg transition-all transform hover:scale-110">
+                        <div class="max-w-fit text-red-500 bg-red-700 p-5 text-5xl rounded-t overflow-hidden">
+                            <i class="fas fa-wind"></i>
+                            <i class="fa-solid fa-music"></i>
+                        </div>
+                        <div class="p-6 bg-neutral-950">
+                            <h3 class="text-white font-bold text-2xl pb-1">Spring Sound App</h3>
+    
+                            <p class="text-gray-400 text-lg mb-5">Desenvolvi um script em Python para criptografar e descriptografar dados sensíveis, garantindo a segurança durante a transmissão e armazenamento.</p>
+    
+                            <a href="https://github.com/pedruuv/sound-app" target="_blank" class="py-3 px-5 bg-red-700 text-white rounded-md hover:bg-red-500 transition-all">Ver no GitHub</a>
+                        </div>
+                        </div>
+
+                        <div class="w-64 rounded-lg transition-all transform hover:scale-110">
+                            <div class="max-w-fit text-red-500 bg-red-700 p-5 text-5xl rounded-t overflow-hidden">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="p-6 bg-neutral-950">
+                                <h3 class="text-white font-bold text-2xl pb-1">Email Administration Application</h3>
+        
+                                <p class="text-gray-400 text-lg mb-5">Desenvolvi um script em Python para criptografar e descriptografar dados sensíveis, garantindo a segurança durante a transmissão e armazenamento.</p>
+        
+                                <a href="https://github.com/pedruuv/sound-app" target="_blank" class="py-3 px-5 bg-red-700 text-white rounded-md hover:bg-red-500 transition-all">Ver no GitHub</a>
+                            </div>
+                            </div>
+
+            </div>
+
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+         <!-- Flex Container -->
+         <div class="container flex flex-col px-6 mx-auto mt-10 space-y-12 md:space-y-0">
+            <h1 class="text-white font-bold max-w-md md:mb-20 text-4xl text-center md:text-5xl md:text-left">Contact me</h1>
+
+            <p class="text-white text-xl pb-6">Entre em contato comigo para discutir oportunidades de colaboração ou simplesmente para dizer oi.</p>
+        
+        <div class="text-center mx-auto">
+            <p class="text-white text-2xl">Send me an email:</p>
+            <a href="mailto:pedruuvtab@gmail.com" class="text-2xl text-red-700 py-6 hover:text-red-500 transition-all">pedruuvtab@gmail.com</a>
+        </div>
+         </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
